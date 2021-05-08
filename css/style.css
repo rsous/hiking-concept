@@ -195,6 +195,14 @@ body {
   border-radius: 2rem;
 }
 
+.btn-basic:hover {
+  color: #dddddd;
+}
+
+.btn-basic:focus {
+  box-shadow: 0 0 0 0.2rem rgba(84, 82, 79, 0.36);
+}
+
 .letsgo__btn {
   color: #fff;
   background-color: var(--color-bg-grey);
@@ -202,6 +210,14 @@ body {
   font-weight: 400;
   padding: 1rem 2.5rem;
   text-transform: uppercase;
+}
+
+.letsgo__btn:hover {
+  background: var(--color-text);
+}
+
+.letsgo__btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(84, 82, 79, 0.36);
 }
 
 /*PROMO*/
@@ -259,6 +275,10 @@ body {
   margin-top: 1.5rem;
   padding: 1rem 2.5rem;
   text-transform: uppercase;
+}
+
+.promo-btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(84, 82, 79, 0.36);
 }
 
 /* FILL-IN DIV */
@@ -461,6 +481,10 @@ body {
   background: var(--color-bg-grey);
 }
 
+.contact__btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(84, 82, 79, 0.36);
+}
+
 /* FOOTER */
 .footer {
   background-color: var(--color-bg-grey);
@@ -562,6 +586,18 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
+  .navbar-nav {
+    align-items: flex-end;
+  }
+
+  .menu-btn:focus {
+    box-shadow: 0 0 0 0.009rem;
+  }
+
+  .search-form {
+    display: none;
+  }
+
   .letsgo__card-img {
     height: 200px;
   }
