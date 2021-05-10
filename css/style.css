@@ -65,8 +65,9 @@ body {
 }
 
 .search-form {
-  width: 10rem;
+  width: 12rem;
   position: relative;
+  flex-direction: column;
 }
 
 .searchbox {
@@ -79,6 +80,10 @@ body {
   box-shadow: none;
   border-color: #7f7770;
   background-color: #7f777047;
+}
+
+.searchbox:focus .search-form {
+  width: 16rem;
 }
 
 .search-icon {
@@ -558,6 +563,24 @@ body {
   color: var(--color-title);
 }
 
+/* COMPONENTS */
+.autocomplete-items {
+  position: absolute;
+  top: 100%;
+  left: 19px;
+  width: 80%;
+}
+
+.autocomplete-items > div {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0 0.5rem;
+}
+
+.autocomplete-active {
+  background-color: var(--color-title);
+}
+
 /* /////////////////////////////////////////////////////////// */
 
 /* MEDIA QUERIES */
@@ -670,6 +693,11 @@ body {
 
   .letsgo__subtitle {
     font-size: 1.1rem;
+  }
+
+  .letsgo__btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.2rem;
   }
 
   .letsgo__card {
