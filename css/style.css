@@ -65,7 +65,7 @@ body {
 }
 
 .search-form {
-  width: 12rem;
+  width: 15rem;
   position: relative;
   flex-direction: column;
 }
@@ -567,8 +567,8 @@ body {
 .autocomplete-items {
   position: absolute;
   top: 100%;
-  left: 19px;
-  width: 80%;
+  left: 18px;
+  width: 85%;
   background-color: #eeeeee;
 }
 
@@ -691,6 +691,14 @@ body {
   .header__main-text {
     margin: auto;
     width: 80%;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav__item {
+    margin-left: 0;
   }
 
   /* letsgo */
