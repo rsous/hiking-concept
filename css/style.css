@@ -566,7 +566,7 @@ body {
 /* COMPONENTS */
 .autocomplete-items {
   position: absolute;
-  top: 91%;
+  top: 100%;
   left: 19px;
   width: 80%;
   background-color: #eeeeee;
