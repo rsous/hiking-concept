@@ -1,6 +1,5 @@
 const hikes = [
   'Victoryland',
-  'Mountains',
   'Fitz Roy Trek',
   'Everest Base Camp Trek',
   'Torres del Paine W Circuit',
