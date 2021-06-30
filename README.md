@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/rsous/hiking-concept">
-    <img src="img/logo.svg" alt="Logo" width="145" height="35">
+    <img src="img/logo.svg" alt="Logo" width="290" height="70">
   </a>
 
   <h3 align="center">Summer Exploring</h3>
