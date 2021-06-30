@@ -835,7 +835,7 @@ body {
 
   .letsgo__card {
     margin: 0 auto;
-    width: 250px;
+    max-width: 250px;
   }
 
   /* promo */
